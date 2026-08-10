@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.local
+dist/
+.DS_Store
+.idea/
+.claude/
+server/TODO.md
+server/BUGFIX_LOG.md
