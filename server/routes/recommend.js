@@ -1,6 +1,6 @@
 import { Router } from 'express'
-import {moodToSearchParams} from '../services/claude.js'
-import {discoverMovies, getRecommendationsFromWatched} from "../services/tmdb.js";
+import { moodToSearchParams } from '../services/claude.js'
+import { discoverMovies, getRecommendationsFromWatched } from "../services/tmdb.js";
 
 const router = Router();
 

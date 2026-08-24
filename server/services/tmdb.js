@@ -22,7 +22,7 @@ const MOVIE_GENRE_IDS = {
     western: 37,
 };
 
-function genresToIds(genres) {
+export function genresToIds(genres) {
     return genres
         .map((genre) => MOVIE_GENRE_IDS[genre.toLowerCase()])
         .filter(Boolean)
@@ -77,7 +77,7 @@ export async function getSimilarToTitle(movieId) {
     }
 }
 
-function mapMovieResult(movies) {
+export function mapMovieResult(movies) {
     return movies.slice(0, 10).map((item) => {
         return {
             id: item.id,
