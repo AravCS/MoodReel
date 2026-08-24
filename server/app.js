@@ -1,7 +1,3 @@
-// The configured Express app itself, with no .listen() call.
-// Splitting this out from index.js means tests (via Supertest) can import
-// `app` directly and send fake requests to it in-memory — no real server,
-// no real port, no network involved at all.
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
