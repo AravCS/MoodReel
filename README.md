@@ -4,6 +4,4 @@ MoodReel recommends movies and TV shows based on the moods/genres you're feeling
 
 **Tech stack:** React (Vite) frontend, Express backend, Anthropic Claude API, TMDB API.
 
-## Setup
 
-_TODO: add local setup instructions (env vars, install, run)._
