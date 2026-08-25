@@ -11,3 +11,9 @@ MoodReel recommends movies and TV shows based on the moods/genres you're feeling
 
 **Deployment:** frontend on Vercel, backend on Render, connected via `VITE_API_BASE` (frontend env var pointing at the Render URL) and `CLIENT_ORIGIN` (backend env var allowing CORS requests from the Vercel URL).
 
+## Future work
+
+- Finish unit test coverage
+- User authentication
+- PostgreSQL database for persistence (saved watchlists, accounts)
+
